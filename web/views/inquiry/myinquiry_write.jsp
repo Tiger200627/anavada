@@ -13,27 +13,39 @@
         <div id="content">
 
             <!--서브 비주얼/타이틀-->
-            <div class="visual-sub-vagas notice-vagas">
+            <div class="visual-sub-vagas mypage-vagas">
                 <div class="vsv-copy sub-title">
                    <div>
                         <ul class="navi">
                             <li><a href="/anavada">홈</a></li>
-                            <li><a href="/anavada/nlist">고객센터</a></li>
-                            <li class="glyphicon glyphicon-menu-right"><a href="/anavada/ilist">문의하기</a></li>
+                            <li><a href="/anavada/mypage.cp?memberId=<%= loginMember.getMemberId() %>">MYPAGE</a></li>
+                            <li class="glyphicon glyphicon-menu-right"><a href="/anavada/miq?member=<%= loginMember.getMemberId() %>">문의하기조회</a></li>
                         </ul>
                     </div>
-                    <h2><span>문의하기</span></h2>
-                    <h3>관리자에게 문의할 수 있는 공간입니다.</h3>
+                    <h2><span>MYPAGE</span></h2>
+                    <h3>'Anavada'의 내 정보를 확인할 수 있습니다..</h3>
                 </div>
             </div>
             <!--서브 비주얼/타이틀 끝-->
+			    
+            <!--서브 카테고리-->
+            <div class="MyTap">
+                <ul>
+                    <li><a href="/anavada/mypage.cp?memberId=<%= loginMember.getMemberId() %>">정보수정</a></li>
+                    <li><a href="/anavada/myjblist?memberid=<%=loginMember.getMemberId()%>">중고거래조회</a></li>
+                    <li><a href="/anavada/mycmnt?memberID=<%=loginMember.getMemberId()%>">커뮤니티조회</a></li>
+                    <li class="active"><a href="/anavada/miq?member=<%= loginMember.getMemberId() %>">문의하기조회</a></li>
+                    <li><a href="/anavada/dbomylist.ss?member=<%= loginMember.getMemberId()%>">신고하기조회</a></li>
+                </ul>
+            </div>
+            <!--서브 카테고리 끝-->
 
             <!-- 글쓰기 -->
             <div class="write-area">
                 <form action="/anavada/iinsert.ss" method="post" enctype="multipart/form-data">
 				<input type="hidden" value="<%= loginMember.getMemberId() %>" name="id">
-				<input type="hidden" value="no" name="my">
-                    <h2>문의하기 작성</h2>
+				<input type="hidden" value="ok" name="my">
+                    <h2>나의 문의하기 작성</h2>
 
                     <table>
                         <colgroup>
