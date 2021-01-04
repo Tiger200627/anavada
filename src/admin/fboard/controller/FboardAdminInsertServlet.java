@@ -49,20 +49,27 @@ public class FboardAdminInsertServlet extends HttpServlet {
 
 		for (int i = 0; i < jsonArray.size(); i++) {
 			JSONObject data = (JSONObject) (JSONObject) jsonArray.get(i);
-
+			System.out.println(data);
 			String fboardNo = data.get("contentid").toString();
 			int selectResult = fbService.selectFboard(fboardNo);
 			System.out.println("select : " + fboardNo + " 결과(1:유 0:무) : " + selectResult);
-
+			
 			if (selectResult == 0) {
+				
+				//온라인 주최때문에 제공하지 않는 경우를 제외하고 값(mapx, mapy, sigungucode) 넣기
+				if(data.get("mapx") != null) 
+					fboard.setMapX(data.get("mapx").toString());
+				if(data.get("mapy") != null)
+					fboard.setMapY(data.get("mapy").toString());
+				if(data.get("sigungucode") != null)
+					fboard.setLocalNo(data.get("sigungucode").toString());
+				
 				fboard.setFboardNo(fboardNo);
 				fboard.setFestivalTitle(data.get("title").toString());
-				fboard.setLocalNo(data.get("sigungucode").toString());
 				fboard.setFestivalStartDate(data.get("eventstartdate").toString());
 				fboard.setFestivalEndDate(data.get("eventenddate").toString());
 				fboard.setFesivalModifiedDate(data.get("modifiedtime").toString());
-				fboard.setMapX(data.get("mapx").toString());
-				fboard.setMapY(data.get("mapy").toString());
+				
 				fboard.setMemberId(memberId);
 
 				String thumbnail;

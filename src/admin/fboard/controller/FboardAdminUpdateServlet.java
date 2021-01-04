@@ -57,14 +57,18 @@ public class FboardAdminUpdateServlet extends HttpServlet {
 			if (selectResult == 0) { // 축제 정보가 아예 없을 경우, 축제 수정일이 바뀌었을 경우
 				System.out.println("축제 번호 : " + fboardNo + "축제 수정일 : " + fesivalModifiedDate);
 
+				if(data.get("mapx") != null) 
+					fboard.setMapX(data.get("mapx").toString());
+				if(data.get("mapy") != null)
+					fboard.setMapY(data.get("mapy").toString());
+				if(data.get("sigungucode") != null)
+					fboard.setLocalNo(data.get("sigungucode").toString());
+				
 				fboard.setFboardNo(fboardNo);
 				fboard.setFestivalTitle(data.get("title").toString());
-				fboard.setLocalNo(data.get("sigungucode").toString());
 				fboard.setFestivalStartDate(data.get("eventstartdate").toString());
 				fboard.setFestivalEndDate(data.get("eventenddate").toString());
 				fboard.setFesivalModifiedDate(data.get("modifiedtime").toString());
-				fboard.setMapX(data.get("mapx").toString());
-				fboard.setMapY(data.get("mapy").toString());
 
 				String thumbnail;
 				if (data.get("firstimage2") == null) {

@@ -168,11 +168,11 @@
                 			map : map,
                 			position : new daum.maps.LatLng(<%=f.getMapY()%>, <%=f.getMapX()%>)
                 		});
-
+                		
                 		// 커스텀 오버레이에 표시할 컨텐츠 입니다
                 		var content<%=index%> = '<div class="wrap">'
                 				+ '    <div class="info">'
-                				+ '        <div class="title">' + "<%=  f.getFestivalTitle()%>"
+                				+ '        <div class="title">' + `<%=  f.getFestivalTitle()%>`
                 				+ '            <div class="close" onclick="closeOverlay<%=index%>()" title="닫기"></div>'
                 				+ '        </div>'
                 				+ '        <div class="body">'
