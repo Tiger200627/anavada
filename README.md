@@ -25,7 +25,7 @@ KaKao Map API를 사용하여 축제 위치를 제공하는 서비스등 지역 
 
 ## 3. 구현 기능
 `클릭시 해당 기능이 있는 코드 위치로 이동합니다`
-- [축제데이터 가지고 오기](anavada/src/fboard/fboard)
+- [축제데이터 가지고 오기](anavada/src/fboard)
   
 - 축제데이터 CRUD
   - 아아니
