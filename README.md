@@ -44,7 +44,7 @@ KaKao Map API를 사용하여 축제 위치를 제공하는 서비스등 지역 
   - 댓글 출력(Ajax처리) [Code](https://github.com/Tiger200627/anavada/blob/master/src/fboardreply/controller/FboardReplyListServlet.java)
   - 댓글 삭제(Ajax처리) [Code](https://github.com/Tiger200627/anavada/blob/master/src/fboardreply/controller/FboardReplyInsertServlet.java) / 수정(Ajax처리) [Code](https://github.com/Tiger200627/anavada/blob/master/src/fboardreply/controller/FboardReplyDeleteServlet.java)
 
-구현 이미지: 상세 페이지
+구현 이미지: 상세 페이지<br>
 <img src="https://user-images.githubusercontent.com/67498192/103650124-e4643200-4fa2-11eb-92ca-51a3eb854805.png" width="60%">
 
 #### 관리자 [Code](https://github.com/Tiger200627/anavada/tree/master/src/admin/fboard/controller)
