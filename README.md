@@ -32,9 +32,11 @@ KaKao Map API를 사용하여 축제 위치를 제공하는 서비스등 지역 
 - 축제 리스트 출력(Ajax처리 + 검색기능) [Code](https://github.com/Tiger200627/anavada/blob/master/src/fboard/controller/FboardLIstServlet.java)&nbsp;&nbsp;
 [View](https://github.com/Tiger200627/anavada/blob/master/web/views/fboard/areaEvent_list.jsp)
   - 카카오 맵에 출력할 축제데이터 리스트 [Code](https://github.com/Tiger200627/anavada/blob/master/src/fboard/controller/FboardKListServlet.java)
-  
-![축제 리스트 상단](https://user-images.githubusercontent.com/67498192/103649769-62740900-4fa2-11eb-974e-c784dfee6626.png)
-![축제 리스트 하단](https://user-images.githubusercontent.com/67498192/103650014-bbdc3800-4fa2-11eb-9f00-9fac4f6c18e1.png)
+
+구현 이미지: 리스트 페이지 상단(Kakao Map)
+<img src="https://user-images.githubusercontent.com/67498192/103649769-62740900-4fa2-11eb-974e-c784dfee6626.png" width="60%">
+구현 이미지: 리스트 페이지 하단
+<img src="https://user-images.githubusercontent.com/67498192/103650014-bbdc3800-4fa2-11eb-9f00-9fac4f6c18e1.png" width="60%">
 
 - 축제 상세정보 출력(Ajax처리) [Code - 데이터 가지고오기](https://github.com/Tiger200627/anavada/blob/master/src/fboard/FestivalDetailInformation.java)&nbsp;&nbsp;
 [Code - 데이터 가공](https://github.com/Tiger200627/anavada/blob/master/src/fboard/controller/FboardDetailServlet.java)&nbsp;&nbsp;
@@ -42,7 +44,8 @@ KaKao Map API를 사용하여 축제 위치를 제공하는 서비스등 지역 
   - 댓글 출력(Ajax처리) [Code](https://github.com/Tiger200627/anavada/blob/master/src/fboardreply/controller/FboardReplyListServlet.java)
   - 댓글 삭제(Ajax처리) [Code](https://github.com/Tiger200627/anavada/blob/master/src/fboardreply/controller/FboardReplyInsertServlet.java) / 수정(Ajax처리) [Code](https://github.com/Tiger200627/anavada/blob/master/src/fboardreply/controller/FboardReplyDeleteServlet.java)
 
-
+구현 이미지: 상세 페이지
+<img src="https://user-images.githubusercontent.com/67498192/103650124-e4643200-4fa2-11eb-92ca-51a3eb854805.png" width="60%">
 
 #### 관리자 [Code](https://github.com/Tiger200627/anavada/tree/master/src/admin/fboard/controller)
 - 공공데이터 와 서버에 저장된 축제 정보 비교하여 출력(Ajax처리) 
@@ -54,7 +57,8 @@ KaKao Map API를 사용하여 축제 위치를 제공하는 서비스등 지역 
   - 년도가 지난 경우 지난년도 축제 삭제(Delete) [Code](https://github.com/Tiger200627/anavada/blob/master/src/admin/fboard/controller/FboardAdminDeleteServlet.java) 
   / 서버에 저장된 축제 전체 삭제(All Delete) [Code](https://github.com/Tiger200627/anavada/blob/master/src/admin/fboard/controller/FboardAdminDeleteAllServlet.java)
 
-![관리자페이지](https://user-images.githubusercontent.com/67498192/103650053-ca2a5400-4fa2-11eb-8cb7-52ccec449b44.png)
+구현 이미지: 관리자 페이지
+<img src="https://user-images.githubusercontent.com/67498192/103650053-ca2a5400-4fa2-11eb-8cb7-52ccec449b44.png" width="60%">
 
 ## 4. 구현 영상
 아직 촬영 전
