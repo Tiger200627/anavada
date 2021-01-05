@@ -26,7 +26,7 @@ KaKao Map API를 사용하여 축제 위치를 제공하는 서비스등 지역 
 
 ## 3. 구현 기능
 `Code, View 클릭시 해당 기능이 있는 코드 위치로 이동합니다`
-#### 사용자
+#### 사용자 [Code](https://github.com/Tiger200627/anavada/tree/master/src/fboard)
 - 축제데이터 가지고 오기 [Code](https://github.com/Tiger200627/anavada/blob/master/src/fboard/FestivalDetailInformation.java)
 - 축제 리스트 출력(Ajax처리 + 검색기능) [Code](https://github.com/Tiger200627/anavada/blob/master/src/fboard/controller/FboardLIstServlet.java)&nbsp;&nbsp;
 [View](https://github.com/Tiger200627/anavada/blob/master/web/views/fboard/areaEvent_list.jsp)
@@ -38,7 +38,7 @@ KaKao Map API를 사용하여 축제 위치를 제공하는 서비스등 지역 
   - 댓글 출력(Ajax처리) [Code](https://github.com/Tiger200627/anavada/blob/master/src/fboardreply/controller/FboardReplyListServlet.java)
   - 댓글 삭제(Ajax처리) [Code](https://github.com/Tiger200627/anavada/blob/master/src/fboardreply/controller/FboardReplyInsertServlet.java) / 수정(Ajax처리) [Code](https://github.com/Tiger200627/anavada/blob/master/src/fboardreply/controller/FboardReplyDeleteServlet.java)
 
-#### 관리자
+#### 관리자 [Code](https://github.com/Tiger200627/anavada/tree/master/src/admin/fboard/controller)
 - 공공데이터 와 서버에 저장된 축제 정보 비교하여 출력(Ajax처리) 
 [Code - 공공데이터 출력](https://github.com/Tiger200627/anavada/blob/master/src/admin/fboard/controller/FestivalAPIListServlet.java)&nbsp;&nbsp;
 [Code - 서버데이터 ](https://github.com/Tiger200627/anavada/blob/master/src/admin/fboard/controller/FboardAdminListServlet.java)&nbsp;&nbsp; 
