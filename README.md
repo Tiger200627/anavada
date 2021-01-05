@@ -1,5 +1,4 @@
 # Anavada
-KH_Semi Project
 
 ## 목차
 1. [프로젝트 소개](#1.-프로젝트-소개)
@@ -40,8 +39,8 @@ KaKao Map API를 사용하여 축제 위치를 제공하는 서비스등 지역 
 
 관리자 페이지
 - 공공데이터 와 서버에 저장된 축제 정보 비교하여 출력(Ajax처리) 
-[Code - 공공데이터](https://github.com/Tiger200627/anavada/blob/master/src/admin/fboard/controller/FestivalAPIListServlet.java)&nbsp;&nbsp;
-[Code - 서버](https://github.com/Tiger200627/anavada/blob/master/src/admin/fboard/controller/FboardAdminListServlet.java)&nbsp;&nbsp; 
+[Code - 공공데이터 출력](https://github.com/Tiger200627/anavada/blob/master/src/admin/fboard/controller/FestivalAPIListServlet.java)&nbsp;&nbsp;
+[Code - 서버데이터 ](https://github.com/Tiger200627/anavada/blob/master/src/admin/fboard/controller/FboardAdminListServlet.java)&nbsp;&nbsp; 
 [View](https://github.com/Tiger200627/anavada/blob/master/web/views/admin/fboard/adminfboardList.jsp)
   - 축제번호 비교 후 없는 축제정보 서버에 저장(Insert) [Code](https://github.com/Tiger200627/anavada/blob/master/src/admin/fboard/controller/FboardAdminInsertServlet.java)
   - 축제수정일 비교 후 바뀐 경우 해당 축제 수정(Update) [Code](https://github.com/Tiger200627/anavada/blob/master/src/admin/fboard/controller/FboardAdminUpdateServlet.java)
