@@ -33,6 +33,8 @@ KaKao Map API를 사용하여 축제 위치를 제공하는 서비스등 지역 
 [View](https://github.com/Tiger200627/anavada/blob/master/web/views/fboard/areaEvent_list.jsp)
   - 카카오 맵에 출력할 축제데이터 리스트 [Code](https://github.com/Tiger200627/anavada/blob/master/src/fboard/controller/FboardKListServlet.java)
   
+![축제 리스트 상단](https://user-images.githubusercontent.com/67498192/103649769-62740900-4fa2-11eb-974e-c784dfee6626.png)
+
 - 축제 상세정보 출력(Ajax처리) [Code - 데이터 가지고오기](https://github.com/Tiger200627/anavada/blob/master/src/fboard/FestivalDetailInformation.java)&nbsp;&nbsp;
 [Code - 데이터 가공](https://github.com/Tiger200627/anavada/blob/master/src/fboard/controller/FboardDetailServlet.java)&nbsp;&nbsp;
 [View](https://github.com/Tiger200627/anavada/blob/master/web/views/fboard/areaEvent_view.jsp)
