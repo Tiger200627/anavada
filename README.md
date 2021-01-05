@@ -16,7 +16,7 @@ KH_정보교육원에서 6명이 함께한 Semi 팀 프로젝트입니다.<br>
 KaKao Map API를 사용하여 축제 위치를 제공하는 서비스 등 지역 축제 관련 서비스를 맡았습니다.<br>
 
 총 개발기간은 한달입니다.(2020/07/16 ~ 2020/08/17)<br>
-자세한 보고서(기획, 설계, 화면 구현 설명)를 보시려면 [여기](https://drive.google.com/file/d/1yx8NfNtySx3fFh_xHSQogiZPu7gT5eQL/view?usp=sharing)를 클릭해주세요.
+자세한 보고서(기획, 설계, 화면 구현 설명)를 보시려면 [여기](https://drive.google.com/file/d/1h68InUBaT7WiVjLp_yH9PJf26IWkDxtM/view?usp=sharing)를 클릭해주세요.
 
 ## 2. 개발 환경
 &nbsp;&nbsp; 💻 &nbsp; Eclipse 2019-12 (4.14.0) | Oracle SQL Developer 19.4.0.354 <br>
