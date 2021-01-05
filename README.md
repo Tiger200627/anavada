@@ -51,14 +51,14 @@ KaKao Map API를 사용하여 축제 위치를 제공하는 서비스 등 지역
   / 서버에 저장된 축제 전체 삭제 [Code](https://github.com/Tiger200627/anavada/blob/master/src/admin/fboard/controller/FboardAdminDeleteAllServlet.java)
 
 ## 4. 구현 이미지
-구현 이미지: 축제 리스트 페이지 상단(Kakao Map)
+축제 리스트 페이지 상단(Kakao Map)
 <img src="https://user-images.githubusercontent.com/67498192/103649769-62740900-4fa2-11eb-974e-c784dfee6626.png" width="100%">
-구현 이미지: 축제 리스트 페이지 하단
+축제 리스트 페이지 하단
 <img src="https://user-images.githubusercontent.com/67498192/103650014-bbdc3800-4fa2-11eb-9f00-9fac4f6c18e1.png" width="100%">
-구현 이미지: 축제 상세 페이지<br>
+축제 상세 페이지<br>
 <img src="https://user-images.githubusercontent.com/67498192/103650124-e4643200-4fa2-11eb-92ca-51a3eb854805.png" width="60%">
 <br>
-구현 이미지: 축제 관리 페이지
+축제 관리 페이지
 <img src="https://user-images.githubusercontent.com/67498192/103650053-ca2a5400-4fa2-11eb-8cb7-52ccec449b44.png" width="100%">
 
 ## 5. 구현 영상
