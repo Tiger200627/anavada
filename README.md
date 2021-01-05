@@ -27,7 +27,7 @@ KaKao Map API를 사용하여 축제 위치를 제공하는 서비스등 지역 
 
 ## 3. 구현 기능
 `Code, View 클릭시 해당 기능이 있는 코드 위치로 이동합니다`
-#### 사용자 [Code](https://github.com/Tiger200627/anavada/tree/master/src/fboard)
+#### 사용자 [🔍](https://github.com/Tiger200627/anavada/tree/master/src/fboard)
 - 축제데이터 가지고 오기 [Code](https://github.com/Tiger200627/anavada/blob/master/src/fboard/FestivalDetailInformation.java)
 - 축제 리스트 출력(Ajax처리 + 검색기능) [Code](https://github.com/Tiger200627/anavada/blob/master/src/fboard/controller/FboardLIstServlet.java)&nbsp;&nbsp;
 [View](https://github.com/Tiger200627/anavada/blob/master/web/views/fboard/areaEvent_list.jsp)
