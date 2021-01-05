@@ -34,9 +34,9 @@ KaKao Map API를 사용하여 축제 위치를 제공하는 서비스등 지역 
   - 카카오 맵에 출력할 축제데이터 리스트 [Code](https://github.com/Tiger200627/anavada/blob/master/src/fboard/controller/FboardKListServlet.java)
 
 구현 이미지: 리스트 페이지 상단(Kakao Map)
-<img src="https://user-images.githubusercontent.com/67498192/103649769-62740900-4fa2-11eb-974e-c784dfee6626.png" width="60%">
+<img src="https://user-images.githubusercontent.com/67498192/103649769-62740900-4fa2-11eb-974e-c784dfee6626.png" width="100%">
 구현 이미지: 리스트 페이지 하단
-<img src="https://user-images.githubusercontent.com/67498192/103650014-bbdc3800-4fa2-11eb-9f00-9fac4f6c18e1.png" width="60%">
+<img src="https://user-images.githubusercontent.com/67498192/103650014-bbdc3800-4fa2-11eb-9f00-9fac4f6c18e1.png" width="100%">
 
 - 축제 상세정보 출력(Ajax처리) [Code - 데이터 가지고오기](https://github.com/Tiger200627/anavada/blob/master/src/fboard/FestivalDetailInformation.java)&nbsp;&nbsp;
 [Code - 데이터 가공](https://github.com/Tiger200627/anavada/blob/master/src/fboard/controller/FboardDetailServlet.java)&nbsp;&nbsp;
@@ -58,7 +58,7 @@ KaKao Map API를 사용하여 축제 위치를 제공하는 서비스등 지역 
   / 서버에 저장된 축제 전체 삭제(All Delete) [Code](https://github.com/Tiger200627/anavada/blob/master/src/admin/fboard/controller/FboardAdminDeleteAllServlet.java)
 
 구현 이미지: 관리자 페이지
-<img src="https://user-images.githubusercontent.com/67498192/103650053-ca2a5400-4fa2-11eb-8cb7-52ccec449b44.png" width="60%">
+<img src="https://user-images.githubusercontent.com/67498192/103650053-ca2a5400-4fa2-11eb-8cb7-52ccec449b44.png" width="100%">
 
 ## 4. 구현 영상
 아직 촬영 전
