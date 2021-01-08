@@ -14,6 +14,7 @@ KH_정보교육원에서 6명이 함께한 Semi 팀 프로젝트입니다.<br>
 
 그중 저는 한국관광공사의 공공데이터 OPEN API를 사용하여 서울시 축제 정보를 JSON 형태로 가지고와 데이터를 가지고
 KaKao Map API를 사용하여 축제 위치를 제공하는 서비스 등 지역 축제 관련 서비스를 맡았습니다.<br>
+Java와 servlet을 사용했고 프론트는 HTML5/CSS/JS, JSP를 DBMS는 Oracle을 사용하였습니다.<br>
 
 총 개발기간은 한달입니다.(2020/07/16 ~ 2020/08/17)<br>
 자세한 보고서(기획, 설계, 화면 구현 설명)를 보시려면 [여기](https://drive.google.com/file/d/1h68InUBaT7WiVjLp_yH9PJf26IWkDxtM/view?usp=sharing)를 클릭해주세요.
