@@ -67,4 +67,3 @@ Java와 servlet을 사용했고 프론트는 HTML5/CSS/JS, JSP를 DBMS는 Oracle
 
 ## 6. 업데이트 현황
 - ~~ReadMe 작성하기~~  (2021-01-05 완료)
-- AWS에 서버 배포하기
